@@ -41,6 +41,11 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   background: transparent;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0071e3;
+}
 
 #webgi-canvas-container {
   width: 100vw;
@@ -178,6 +183,7 @@ nav .link-styled {
   letter-spacing: -0.01em;
   line-height: 1;
   display: flex;
+  text-decoration: none;
   align-items: center;
   justify-content: center;
   height: 44px;
@@ -255,7 +261,7 @@ nav .link-styled {
   margin: 0 14px;
 }
 
-.jumbotron-section .link {
+.jumbotron-section .links .link {
   text-decoration: none;
   color: #2997ff;
   font-size: 21px;
